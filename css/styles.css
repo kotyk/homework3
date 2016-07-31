@@ -1,23 +1,33 @@
 body{
 	background-color: #f9f9f9;
+	height: 100%;
+	margin: 0;
 }
+
 .container{
 	position: absolute;
 	margin: 0 150px 0 150px;
 	width: 1060px;
-	height: 930px;
+	height: auto;
 	background-color: #fff;
 	box-shadow: 0 0 10px #dbdbdb;
+	padding-bottom: 60px;
+	font-family: "Open Sans", Verdana, sans-serif;
+	font-size: 13px;
 }
+
 .logo{
 	margin: 50px 0 40px 45px;
 }
+
 .menu, .footer {
 	height: 40px;
-	width: 975px;
+	width: 965px;
 	background-color: #474646;
 	margin: 0 auto;
+	padding:0;
 }
+
 .menu li {
 	font-size: 14px; 
 	display: inline-block;
@@ -27,20 +37,28 @@ body{
 	padding-top: 12px;
 	padding-bottom: 12px;
 }
+
 .menu li:hover{
 	background-color: #3f3f3f;
 	border-left: 2px solid #838383;
 	border-right: 2px solid #838383;
 }
+
+.menu a{
+	text-decoration: none;
+	color: #fff;
+}
+
 .sidebar{
-	width: 260px;  
+	width: 240px;  
 	margin: 44px 0 0 45px;
 	border: 1px solid #c8c8c8;
 	border-bottom: none;
 	float: left;
+	padding: 0;
 }
+
 .sidebar li{
-	font-size: 13px;
 	color: #656363;
 	display: block;
 	padding-left: 21px;
@@ -48,11 +66,18 @@ body{
 	padding-bottom: 10px;
 	border-bottom: 1px solid #c8c8c8;
 }
+
 .sidebar li:hover{
 	color: #2c2c2c;
 	background-color: #f9f9f9;
 	padding-left: 32px;
 }
+
+.sidebar a{
+	text-decoration: none;
+	color: #656363;
+}
+
 .content{
 	float: right;
 	width: 670px;
@@ -61,10 +86,12 @@ body{
 	margin-top: 44px;
 	border: 1px solid #c8c8c8;
 }
+
 .content img{
 	display: block;
 	margin: 45px auto;
 }
+
 .text {
 	float: right;
 	width: 670px;
@@ -72,29 +99,37 @@ body{
 	margin-top: 38px;
 	margin-bottom: 50px;
 }
+
 .text p{
 	display: block;
-	font-size: 13px;
 	font-family: "Times New Roman";
 	text-align: left;
 	margin-left: 20px;
 	margin-right: 21px;
 } 
+
 .footer{
 	background-color: #e1e1e1;
 	clear: both;
-}
-.footer li{
-	font-size: 13px; 
-	display: inline-block;
+	padding: 11px 27px;
+	box-sizing: border-box;
 	color: #2c2c2c;
-	width: 128px;
-	text-align: center;
-	padding-top: 12px;
-	padding-bottom: 12px;
-}
-.footer li:hover{
-	text-decoration: underline;
-	text-decoration-color: #2c2c2c;
+	cursor: pointer;
 }
 
+.footer a{
+	text-decoration: none;
+	color: #2c2c2c;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+}
+
+.footer a+a{
+	margin-left: 75px;
+}
+
+.footer span{
+	float: right;
+}

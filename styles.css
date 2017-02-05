@@ -1,0 +1,139 @@
+body{
+	background-color: #f9f9f9;
+	height: 100%;
+	margin: 0;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1060px;
+	height: auto;
+	background-color: #fff;
+	box-shadow: 0 0 10px #dbdbdb;
+	padding-bottom: 60px;
+	font-family: "Open Sans", Verdana, sans-serif;
+	font-size: 13px;
+	border: 1px solid transparent;
+}
+
+.logo{
+	margin: 50px 0 40px 45px;
+}
+
+.menu, .footer {
+	height: 40px;
+	width: 965px;
+	background-color: #474646;
+	margin: 0 auto;
+	padding:0;
+}
+
+.menu li {
+	font-size: 14px; 
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.menu li:hover{
+	background-color: #3f3f3f;
+	border-left: 2px solid #838383;
+	border-right: 2px solid #838383;
+}
+
+.menu a{
+	display: block;
+	width: 128px;
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.sidebar{
+	width: 240px;  
+	margin: 44px 0 0 45px;
+	border: 1px solid #c8c8c8;
+	border-bottom: none;
+	float: left;
+	padding: 0;
+}
+
+.sidebar li{
+	color: #656363;
+	display: block;
+	border-bottom: 1px solid #c8c8c8;
+}
+
+.sidebar li:hover{
+	color: #2c2c2c;
+	background-color: #f9f9f9;
+      text-indent: 32px;
+}
+
+.sidebar a{
+	display: block;
+	width: 240px;
+	height: 37px;
+	line-height: 37px;
+	padding-left: 21px;
+	text-decoration: none;
+	color: #656363;
+}
+
+.content{
+	float: right;
+	width: 670px;
+	height: 400px;
+	margin-right: 45px;
+	margin-top: 44px;
+	border: 1px solid #c8c8c8;
+}
+
+.content img{
+	display: block;
+	margin: 45px auto;
+}
+
+.text {
+	float: right;
+	width: 670px;
+	margin-right:45px;
+	margin-top: 38px;
+	margin-bottom: 50px;
+}
+
+.text p{
+	display: block;
+	font-family: "Times New Roman";
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 21px;
+} 
+
+.footer{
+	background-color: #e1e1e1;
+	clear: both;
+	padding: 11px 27px;
+	box-sizing: border-box;
+	color: #2c2c2c;
+	cursor: pointer;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #2c2c2c;
+}
+
+.footer a:hover{
+	text-decoration: underline;
+}
+
+.footer a+a{
+	margin-left: 75px;
+}
+
+.footer span{
+	float: right;
+}

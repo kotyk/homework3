@@ -5,8 +5,7 @@ body{
 }
 
 .container{
-	position: absolute;
-	margin: 0 150px 0 150px;
+	margin: 0 auto;
 	width: 1060px;
 	height: auto;
 	background-color: #fff;
@@ -14,6 +13,7 @@ body{
 	padding-bottom: 60px;
 	font-family: "Open Sans", Verdana, sans-serif;
 	font-size: 13px;
+	border: 1px solid transparent;
 }
 
 .logo{
@@ -32,10 +32,8 @@ body{
 	font-size: 14px; 
 	display: inline-block;
 	color: #fff;
-	width: 128px;
 	text-align: center;
-	padding-top: 12px;
-	padding-bottom: 12px;
+	box-sizing: border-box;
 }
 
 .menu li:hover{
@@ -45,6 +43,10 @@ body{
 }
 
 .menu a{
+	display: block;
+	width: 128px;
+	height: 40px;
+	line-height: 40px;
 	text-decoration: none;
 	color: #fff;
 }
@@ -61,19 +63,21 @@ body{
 .sidebar li{
 	color: #656363;
 	display: block;
-	padding-left: 21px;
-	padding-top: 10px;
-	padding-bottom: 10px;
 	border-bottom: 1px solid #c8c8c8;
 }
 
 .sidebar li:hover{
 	color: #2c2c2c;
 	background-color: #f9f9f9;
-	padding-left: 32px;
+      text-indent: 32px;
 }
 
 .sidebar a{
+	display: block;
+	width: 240px;
+	height: 37px;
+	line-height: 37px;
+	padding-left: 21px;
 	text-decoration: none;
 	color: #656363;
 }
